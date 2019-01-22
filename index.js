@@ -547,6 +547,7 @@ eWeLink.prototype.setPowerState = function(accessory, isOn, callback) {
     let options = {};
     let deviceId = accessory.context.deviceId;
     options.protocolVersion = 13;
+    await sleep(100);
 
     let targetState = 'off';
 
