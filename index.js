@@ -26,7 +26,7 @@ module.exports = function(homebridge) {
 
     // For platform plugin to be considered as dynamic platform plugin,
     // registerPlatform(pluginName, platformName, constructor, dynamic), dynamic must be true
-    homebridge.registerPlatform("homebridge-eWeLink", "eWeLink", eWeLink, true);
+    homebridge.registerPlatform("homebridge-eWeLink-dospaquetes", "eWeLink", eWeLink, true);
 
 };
 
